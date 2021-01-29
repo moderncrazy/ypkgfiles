@@ -1,13 +1,13 @@
 {
-  "name": "ypkgfiles",
-  "version": "1.6.0",
+  "name": "@moderncrazy/ypkgfiles",
+  "version": "1.6.1",
   "description": "Yet another pkgfiles that generate pkg.files automatically",
   "dependencies": {
     "debug": "^2.6.1",
     "glob": "^7.1.1",
     "is-type-of": "^1.0.0",
     "resolve-files": "^1.0.0",
-    "yargs": "^7.0.1"
+    "yargs": "^13.3.2"
   },
   "devDependencies": {
     "autod": "^2.7.1",
@@ -36,7 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:popomore/ypkgfiles.git"
+    "url": "git@github.com:moderncrazy/ypkgfiles.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "author": "popomore <sakura9515@gmail.com>",
   "license": "MIT",
